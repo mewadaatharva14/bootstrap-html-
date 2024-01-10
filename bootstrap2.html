@@ -3,48 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <style>
-        div{
-            width:20%;
-        }
-    </style>
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class = ".container bg-primary">
-    <abbr title = "Bayerische Motoren Werke Aktiengesellschaft">
-        BMW
-    </abbr>
-    <pre >
-        Hadd thi mohongi gaadi anne <small>char bangadi</small> ni rival
-    </pre>
-</div>
-<div class = ".container border bg-info">
-    <table >
-        <tr class = ".container text-lowercase border">
-        <td>lowercase me heen</td>
-        </tr>
-        <tr class = ".container text-uppercase border">
-        <td>uppercase me dala</td>
-        </tr>
-        <tr class = ".container text-capitalize border">
-            <td>last me capitalize kiya</td>
-        </tr>
-    </table>
-    
-</div>
-<div class = ".container text-justify bg-danger">
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, vel commodi. Labore eaque voluptatem inventore sint, facilis minima ducimus tempore ex recusandae possimus eos, libero voluptates repellendus eius corporis nemo sunt numquam eum voluptate aperiam nulla mollitia quia animi quod! Velit quasi dicta est similique exercitationem voluptatem distinctio mollitia excepturi? Nulla, molestias ipsam? Dolore vero voluptatem provident debitis perferendis consequatur assumenda optio, aperiam asperiores distinctio cumque corrupti dicta laborum laboriosam ab ducimus tempore at sapiente veritatis autem rem. Et dolorum nostrum eos quod ab. Necessitatibus repellat voluptates rem tenetur quia consequatur, deleniti, eius ipsum excepturi modi alias quibusdam magnam natus?</p>
-</div>
-<div class = ".container bg-success">
-    <blockquote class ="blockquote">
-        <p>Past is History ,Future is Mestery ,The only thing exist is Today that why it is PRESENT</p>
-        <footer class="blockquote-footer">
-            -oogrway (kung-fu-panda)
-            
-        </footer>
-    </blockquote>
-</div>
+    <!-- <div class="spinner-border"></div>
+     <button class = "btn btn-success">
+    <span class ="spinner-border text-warning">
+    </span>
+    Loading...
+    </button> 
+
+    <div class="spinner-grow text-success"></div>
+    <ul class = "pagination ">
+        <li class = "page-item">
+            <a class="page-link" href="#">previous</a>
+        </li>
+        <li class ="page-item">
+            <a class="page-link" href="#">1</a>
+        </li>
+        <li class ="page-item">
+            <a class="page-link" href="#">2</a>
+        </li>
+        <li class ="page-item">
+            <a class="page-link" href="#">next</a>
+        </li>
+    </ul>
+</ul> -->
+<!-- <div class = "dropdown drop">
+    <button class = "btn btn-primary dropdown-toggle"  data-toggle = "dropdown">Dropdown button</button>
+    <div class = "dropdown-menu ">
+        <a class = "dropdown-item " href = "#">link1</a>
+        <div class = "dropdown-divider"></div>
+        <a class = "dropdown-item" href = "#">link2</a>
+    </div>    -->
+    <!-- <div class = "container">
+        <button class = "btn btn-primary" data-toggle = "collapse" data-target="#demo">Simple collapse</button>
+        <div id = "demo" class="collapse">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias sit, nam esse a soluta mollitia sunt laudantium cum voluptatem laboriosam neque. Non esse necessitatibus, est labore illo ut dolores recusandae fugiat odit cupiditate. Animi vero, ex numquam totam impedit quas quasi, harum accusantium saepe culpa est sint iure tempore eius maiores beatae illum fugiat asperiores ab maxime? Maiores amet neque porro ut quo nihil nostrum reiciendis eum quam, deserunt magni blanditiis quos velit iure at voluptate nam possimus modi voluptates architecto labore nisi cupiditate? Molestias, quasi ut eveniet in corporis nemo deleniti ipsam a quod aspernatur harum quo reprehenderit velit!
+        </div>
+    </div> -->
+    <div id = "accordian">
+        <div class = "card">
+            <div class = "card-header">
+                <a class = "card-link" data-toggle = "collapse" href = "#collapseone">
+                    Item-1
+                </a>
+            </div>
+            <div id = "collapseone" class = "collapse" data-parent ="#accordian">
+                <div class = "card-body text-success">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem deleniti explicabo dicta repudiandae, aspernatur nostrum accusamus cupiditate, recusandae perferendis, molestias libero officia blanditiis officiis. Dolores, fuga consectetur ab neque inventore obcaecati quia dolorum aperiam nihil modi pariatur magni minima animi reiciendis delectus sed ut! Rem est dicta vel necessitatibus! Nihil, error. Corrupti sapiente hic id laboriosam numquam non mollitia nisi vel! Deleniti optio reprehenderit vitae possimus ea placeat, consequatur corrupti quas ullam id voluptatibus sed dolores, illo hic temporibus autem maxime rem praesentium voluptas commodi distinctio itaque provident dolor? Aperiam, dolorum. Deleniti, ad architecto tenetur et tempore eos doloribus ipsam!</div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-header">
+                <a class = "card-link" data-toggle = "collapse" href = "#collapsetwo">
+                    Item-2
+                </a>
+            </div>
+            <div id = "collapsetwo" class = "collapse" data-parent ="#accordian">
+                <div class = "card-body text-warning">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem deleniti explicabo dicta repudiandae, aspernatur nostrum accusamus cupiditate, recusandae perferendis, molestias libero officia blanditiis officiis. Dolores, fuga consectetur ab neque inventore obcaecati quia dolorum aperiam nihil modi pariatur magni minima animi reiciendis delectus sed ut! Rem est dicta vel necessitatibus! Nihil, error. Corrupti sapiente hic id laboriosam numquam non mollitia nisi vel! Deleniti optio reprehenderit vitae possimus ea placeat, consequatur corrupti quas ullam id voluptatibus sed dolores, illo hic temporibus autem maxime rem praesentium voluptas commodi distinctio itaque provident dolor? Aperiam, dolorum. Deleniti, ad architecto tenetur et tempore eos doloribus ipsam!</div>
+            </div>
+        </div>
+        <div class = "card">
+            <div class = "card-header">
+                <a class = "card-link" data-toggle = "collapse" href = "#collapseonee">
+                    Item-3
+                </a>
+            </div>
+            <div id = "collapseonee" class = "collapse" data-parent ="#accordian">
+                <div class = "card-body text-info">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem deleniti explicabo dicta repudiandae, aspernatur nostrum accusamus cupiditate, recusandae perferendis, molestias libero officia blanditiis officiis. Dolores, fuga consectetur ab neque inventore obcaecati quia dolorum aperiam nihil modi pariatur magni minima animi reiciendis delectus sed ut! Rem est dicta vel necessitatibus! Nihil, error. Corrupti sapiente hic id laboriosam numquam non mollitia nisi vel! Deleniti optio reprehenderit vitae possimus ea placeat, consequatur corrupti quas ullam id voluptatibus sed dolores, illo hic temporibus autem maxime rem praesentium voluptas commodi distinctio itaque provident dolor? Aperiam, dolorum. Deleniti, ad architecto tenetur et tempore eos doloribus ipsam!</div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+
+
+
+
+
+
+
+
